@@ -140,15 +140,10 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="submit" value="Send Message" class="primary" mail("judyli@utk.edu"/></li>
 										<li><input type="reset" value="Reset" /></li>
 										
-										<?php
-                                                                                     if($_POST["Message"]) {
-                                                                                      mail("judyli@utk.edu", "Here is the sample subject line",
-                                                                                      $_POST["Insert Your Message"]. "From: judyoffcampus@gmail.com");
-                                                                                      }
-                                                                                      ?>
+										
 									</ul>
 								</form>
 								<ul class="icons">
